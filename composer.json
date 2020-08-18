@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "task\\Models\\": "models",
+      "task\\Controllers\\": "controllers",
+      "task\\Repository\\": "repository",
+      "task\\Components\\": "components"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "php-di/php-di": "^6.2"
+  }
+}
