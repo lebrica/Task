@@ -14,14 +14,14 @@ class Router
         $this->routes = include($routesPath);
     }
 
-    private function getURI()
+    private function getURI(): string
     {
         if (!empty($_SERVER['REQUEST_URI'])) {
             return trim($_SERVER['REQUEST_URI'], '/');
         }
     }
 
-    private function serarchRoute ()
+    private function findDataParam(): array
     {
         $uri = $this->getURI();
 
@@ -45,15 +45,19 @@ class Router
         }
     }
 
-    public function run()
+    private function containerBuild(array $data): void
     {
-        $route = $this->serarchRoute();
-        if ($route == null) {
-            header("Location: http://task/notfound");
-        }
         $builder = new ContainerBuilder();
         $container  = $builder->build();
-        $container->call([$route['controller'], $route['action']], $route['parameters']);
+        $container->call([$data['controller'], $data['action']], $data['parameters']);
     }
 
+    public function run()
+    {
+        $parameters= $this->findDataParam();
+        if ($parameters == null) {
+            header("Location: http://task/notfound");
+        }
+        $this->containerBuild($parameters);
+    }
 }
