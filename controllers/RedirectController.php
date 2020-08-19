@@ -1,8 +1,6 @@
 <?php
 
-
 namespace task\Controllers;
-
 
 class RedirectController
 {

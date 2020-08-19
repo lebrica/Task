@@ -4,7 +4,8 @@
       "task\\Models\\": "models",
       "task\\Controllers\\": "controllers",
       "task\\Repository\\": "repository",
-      "task\\Components\\": "components"
+      "task\\Components\\": "components",
+      "task\\Services\\": "services"
     }
   },
   "require": {

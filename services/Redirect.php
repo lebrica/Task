@@ -1,6 +1,6 @@
 <?php
 
-namespace task\Components;
+namespace task\Services;
 
 class Redirect
 {

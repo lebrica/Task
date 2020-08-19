@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5bcc5f6-3f12-4e98-b71e-2213ffa87128" name="Default Changelist" comment="" />
+    <list default="true" id="d5bcc5f6-3f12-4e98-b71e-2213ffa87128" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Paginator.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/Paginator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PassVerify.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/PassVerify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/Redirect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/RedirectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RedirectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Tasks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/TaskRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repository/TaskRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +38,9 @@
     <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
     <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
   <component name="PhpServers">
@@ -50,11 +70,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/services" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\OSPanel\domains\task\services" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.Router.php">
     <configuration name="Router.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/components/Router.php">
@@ -103,12 +128,27 @@
       <workItem from="1597639855443" duration="66000" />
       <workItem from="1597655875335" duration="10870000" />
       <workItem from="1597747397248" duration="17959000" />
-      <workItem from="1597769197802" duration="2473000" />
+      <workItem from="1597769197802" duration="3449000" />
+      <workItem from="1597836982765" duration="2666000" />
     </task>
     <servers />
   </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\Git\bin\sh.exe" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -146,10 +186,10 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-987" y="231" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597763097393" />
-    <state x="-1233" y="276" key="FileChooserDialogImpl" timestamp="1597764170053">
+    <state x="-1233" y="276" key="FileChooserDialogImpl" timestamp="1597838693639">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1233" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597764170053" />
+    <state x="-1233" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597838693639" />
     <state x="-1114" y="457" key="Github.ShareDialog" timestamp="1597771647503">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
@@ -218,10 +258,10 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1171" y="481" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597767761241" />
-    <state x="-1576" y="138" key="SettingsEditor" timestamp="1597763597357">
+    <state x="-1576" y="138" key="SettingsEditor" timestamp="1597838696270">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1576" y="138" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597763597357" />
+    <state x="-1576" y="138" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597838696270" />
     <state x="-1329" y="228" width="738" height="704" key="find.popup" timestamp="1597769053125">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>

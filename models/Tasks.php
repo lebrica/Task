@@ -2,7 +2,7 @@
 
 namespace task\Models;
 
-use task\Components\Paginator;
+use task\Services\Paginator;
 use task\Repository\TaskRepository;
 
 class Tasks

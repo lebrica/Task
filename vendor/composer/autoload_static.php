@@ -14,6 +14,7 @@ class ComposerStaticInita7f8106ccff55ad88d37b97924db7fdf
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
+            'task\\Services\\' => 14,
             'task\\Repository\\' => 16,
             'task\\Models\\' => 12,
             'task\\Controllers\\' => 17,
@@ -39,6 +40,10 @@ class ComposerStaticInita7f8106ccff55ad88d37b97924db7fdf
     );
 
     public static $prefixDirsPsr4 = array (
+        'task\\Services\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/services',
+        ),
         'task\\Repository\\' => 
         array (
             0 => __DIR__ . '/../..' . '/repository',

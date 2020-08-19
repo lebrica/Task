@@ -2,7 +2,7 @@
 
 namespace task\Controllers;
 
-use task\Components\Redirect;
+use task\Services\Redirect;
 use  task\Models\Tasks;
 
 class TaskController

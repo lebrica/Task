@@ -2,9 +2,9 @@
 
 namespace task\Controllers;
 
-use task\Components\PassVerify;
 use task\Models\Auth;
-use task\Components\Redirect;
+use task\Services\PassVerify;
+use task\Services\Redirect;
 
 class AuthController
 {
