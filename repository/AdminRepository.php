@@ -3,7 +3,7 @@
 namespace task\Repository;
 
 use task\Components\DB;
-use task\Components\Paginator;
+use task\Services\Paginator;
 
 class AdminRepository
 {

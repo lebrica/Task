@@ -25,12 +25,6 @@ class TaskController
         return require_once (ROOT.'/view/tasks.php');
     }
 
-    public function test($category, $id)
-    {
-            return $category;
-
-    }
-
     public function addTask()
     {
         if (isset($_POST['submit'])) {

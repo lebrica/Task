@@ -3,24 +3,30 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bcc5f6-3f12-4e98-b71e-2213ffa87128" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Paginator.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/Paginator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PassVerify.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/PassVerify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/Redirect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/RedirectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RedirectController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Tasks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/TaskRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repository/TaskRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/AdminRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repository/AdminRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/AuthRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repository/AuthRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -129,7 +135,9 @@
       <workItem from="1597655875335" duration="10870000" />
       <workItem from="1597747397248" duration="17959000" />
       <workItem from="1597769197802" duration="3449000" />
-      <workItem from="1597836982765" duration="2666000" />
+      <workItem from="1597836982765" duration="2966000" />
+      <workItem from="1597849216976" duration="27000" />
+      <workItem from="1600267692236" duration="759000" />
     </task>
     <servers />
   </component>
@@ -149,9 +157,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1342" y="216" key="#Servers" timestamp="1597763458823">
@@ -186,10 +192,10 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-987" y="231" key="EnvironmentVariablesDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597763097393" />
-    <state x="-1233" y="276" key="FileChooserDialogImpl" timestamp="1597838693639">
+    <state x="-1233" y="276" key="FileChooserDialogImpl" timestamp="1597849242574">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1233" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597838693639" />
+    <state x="-1233" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1597849242574" />
     <state x="-1114" y="457" key="Github.ShareDialog" timestamp="1597771647503">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
